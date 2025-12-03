@@ -18,3 +18,4 @@ You could start by testing whether the `$regex` operator is processed as follo
 If the response to this request is different to the one you receive when you submit an incorrect password, this indicates that the application may be vulnerable. You can use the `$regex` operator to extract data character by character. For example, the following payload checks whether the password begins with an `a`:
 
 `{"username":"admin","password":{"$regex":"^a*"}}`
+
