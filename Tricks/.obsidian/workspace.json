@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQLi/Blind-SQLi/Exploiting blind SQL injection by triggering time delays.md",
+                "file": "SQLi/Listing the contents of the database.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exploiting blind SQL injection by triggering time delays"
+              "title": "Listing the contents of the database"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQLi/Blind-SQLi/Exploiting blind SQL injection by triggering time delays.md",
+                "file": "SQLi/Listing the contents of the database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Exploiting blind SQL injection by triggering time delays"
+              "title": "Backlinks for Listing the contents of the database"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQLi/Blind-SQLi/Exploiting blind SQL injection by triggering time delays.md",
+                "file": "SQLi/Listing the contents of the database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Exploiting blind SQL injection by triggering time delays"
+              "title": "Outgoing links from Listing the contents of the database"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQLi/Blind-SQLi/Exploiting blind SQL injection by triggering time delays.md",
+                "file": "SQLi/Listing the contents of the database.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Exploiting blind SQL injection by triggering time delays"
+              "title": "Outline of Listing the contents of the database"
             }
           }
         ]
@@ -200,8 +200,8 @@
   },
   "active": "0a7260a558e3b38a",
   "lastOpenFiles": [
-    "SQLi/Error-based/Extracting sensitive data via verbose SQL error messages.md",
     "SQLi/Blind-SQLi/Exploiting blind SQL injection by triggering time delays.md",
+    "SQLi/Error-based/Extracting sensitive data via verbose SQL error messages.md",
     "SQLi/Error-based/Exploiting blind SQL injection by triggering conditional errors.md",
     "SQLi/Error-based/Error-based SQL injection.md",
     "SQLi/Using a SQL injection UNION attack to retrieve interesting data.md",
