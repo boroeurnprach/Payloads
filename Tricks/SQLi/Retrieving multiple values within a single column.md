@@ -11,7 +11,7 @@ This uses the double-pipe sequence `||` which is a string concatenation operat
 The results from the query contain all the usernames and passwords, for example:
 
 `
-```json
+```yaml
 ---
 administrator~s3cure 
 wiener~peter 
