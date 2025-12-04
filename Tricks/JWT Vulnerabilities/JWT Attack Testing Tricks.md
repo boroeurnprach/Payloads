@@ -176,6 +176,17 @@ python3 jwt_tool.py <TOKEN> -X n
 # Kid injection
 python3 jwt_tool.py <TOKEN> -I -hc kid -hv "../../etc/passwd"
 ```
+`jwt_tool` exploit mode:
+
+```yaml
+a = alg:none                                 
+n = null signature                                  
+b = blank password accepted in signature                                     
+p = 'psychic signature' accepted in ECDSA signing                             
+s = spoof JWKS (specify JWKS URL with -ju, or set in jwtconf.ini to automate this attack)                                     
+k = key confusion (specify public key with -pk)         
+i = inject inline JWKS      
+```
 
 # 9. Quick Testing Workflow
 
