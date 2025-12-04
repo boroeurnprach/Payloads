@@ -1,7 +1,7 @@
 
 # 1. Basic Origin Reflection Test
 
-```json
+```yaml
 Replace Origin header with:
 Origin: https://attacker.com
 Origin: attacker.com
@@ -12,7 +12,7 @@ Origin: <any-random-domain>
 # 2. Prefix/ Suffix Bypass
 
 If `example.com` is whitelisted, try:
-```json
+```yaml
 Origin: example.com.attacker.com
 Origin: attackerexample.com
 Origin: example.com@attacker.com
@@ -20,7 +20,7 @@ Origin: example.com@attacker.com
 
 # 3. Special Character Bypasses
 
-```json
+```
 Origin: https://example_.com  ← Underscore (works in Chrome/Firefox)
 Origin: https://example}.com  ← Special chars (works in Safari)
 Origin: https://example%2ecom ← URL encoded dot
