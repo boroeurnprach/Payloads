@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JWT Vulnerabilities/JWT Attack Testing Tricks.md",
-                "mode": "preview",
+                "file": "NOSQLi/NoSQLi - Timing based injection.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JWT Attack Testing Tricks"
+              "title": "NoSQLi - Timing based injection"
             }
           },
           {
@@ -212,12 +212,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "aff9877a2e7e9d8b",
+  "active": "d81608d299c2f0b0",
   "lastOpenFiles": [
-    "CSP (Content Security Policy)/Content Security Policy (CSP) Bypass.md",
+    "NOSQLi",
+    "NOSQLi/MongoDB Testing.md",
+    "NOSQLi/NoSQLi - Timing based injection.md",
+    "Pasted image 20251203144312.png",
     "JWT Vulnerabilities/JWT Attack Testing Tricks.md",
-    "JWT Vulnerabilities",
     "CORS/CORS - Misconfigurations & Bypass.md",
+    "CSP (Content Security Policy)/Content Security Policy (CSP) Bypass.md",
+    "JWT Vulnerabilities",
     "CSP (Content Security Policy)/What is CSP?.md",
     "SQLi/Error-based/Exploiting blind SQL injection by triggering conditional errors.md",
     "SQLi/Error-based/Error-based SQL injection.md",
@@ -233,9 +237,6 @@
     "Untitled 2.base",
     "Untitled 1.base",
     "CSP (Content Security Policy)",
-    "MongoDB Testing.md",
-    "NoSQLi - Timing based injection.md",
-    "Pasted image 20251203144312.png",
     "SQLi/Blind-SQLi/Exploiting blind SQL injection by triggering time delays.md",
     "SQLi/Blind-SQLi/Examining the database in SQL injection attacks.md",
     "SQLi/Subverting application logic.md",
