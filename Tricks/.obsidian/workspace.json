@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2FA Bypass.md",
-                "mode": "preview",
+                "file": "CORS/CORS - Misconfigurations & Bypass.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2FA Bypass"
+              "title": "CORS - Misconfigurations & Bypass"
             }
           },
           {
@@ -229,11 +229,11 @@
   "active": "7fed61a4e703f053",
   "lastOpenFiles": [
     "CSP (Content Security Policy)/Content Security Policy (CSP) Bypass.md",
+    "CORS/CORS - Misconfigurations & Bypass.md",
     "2FA Bypass.md",
     "CSP (Content Security Policy)/What is CSP?.md",
     "SQLi/Blind-SQLi/Exploiting blind SQL injection by triggering conditional responses.md",
     "JWT Vulnerabilities/JWT Attack Testing Tricks.md",
-    "CORS/CORS - Misconfigurations & Bypass.md",
     "SQLi/Listing the contents of the database.md",
     "SQLi/How to detect SQL injection vulnerabilities.md",
     "SQLi/Blind-SQLi/Exploiting blind SQL injection by triggering time delays.md",
