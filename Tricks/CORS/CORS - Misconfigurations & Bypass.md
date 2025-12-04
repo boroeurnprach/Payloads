@@ -20,7 +20,7 @@ Origin: example.com@attacker.com
 
 # 3. Special Character Bypasses
 
-```
+```yaml
 Origin: https://example_.com  ← Underscore (works in Chrome/Firefox)
 Origin: https://example}.com  ← Special chars (works in Safari)
 Origin: https://example%2ecom ← URL encoded dot
@@ -29,7 +29,7 @@ Origin: https://example%2ecom ← URL encoded dot
 # 4. Subdomain Takeover
 
 If `*.example.com` is allowed:
-```json
+```yaml
 Find XSS on any subdomain → Bypasses CORS entirely
 sub.example.com with XSS can access main.example.com
 ```
@@ -48,7 +48,7 @@ sub.example.com with XSS can access main.example.com
 
 # 6. Pre-flight Bypass Checks
 Send these unusual requests:
-```json
+```yaml
 OPTIONS /data HTTP/1.1
 Origin: https://attacker.com
 Access-Control-Request-Method: PUT
@@ -68,7 +68,7 @@ fetch('https://target.com/api', {
 
 # 8.Internal Network Bypass
 
-```json
+```yaml
 Target local/private IPs:
 Origin: http://192.168.1.1
 Origin: http://10.0.0.1
@@ -78,14 +78,14 @@ Origin: http://127.0.0.1.nip.io ← DNS rebinding
 
 # 9. Port Bypass
 If `example.com:3000` is blocked, try:
-```json
+```yaml
 Origin: example.com:80
 Origin: example.com  ← No port specified
 ```
 
 # 10. HTTP/HTTPS Protocol Mix
 
-```json
+```yaml
 If https://example.com is allowed, try:
 Origin: http://example.com  ← Downgrade attack
 ```
@@ -94,28 +94,28 @@ Origin: http://example.com  ← Downgrade attack
 
 If `Access-Control-Allow-Origin: *` exists:
 
-```json
+```yaml
 Try with credentials
 Some servers misconfigure: * + credentials
 ```
 
 # 12. Cache Poisoning
 
-```json
+```yaml
 Inject: Origin: victim.com\r\nAccess-Control-Allow-Origin: attacker.com
 Poison cache → Future requests get attacker's CORS policy
 ```
 
 # 13. JSONP Fallback
 
-```json
+```yaml
 If CORS blocks, try: ?callback=evil
 Many APIs support JSONP as legacy fallback
 ```
 
 # 14. DNS Rebinding Attack
 
-```json
+```yaml
 1. Set short TTL DNS record: A → attacker-IP
 2. Victim visits your page
 3. Change DNS: A → 127.0.0.1
@@ -124,7 +124,7 @@ Many APIs support JSONP as legacy fallback
 
 # 15. Service Worker Bypass
 
-```json
+```yaml
 // Register service worker on vulnerable subdomain
 // Then make cross-origin requests from worker
 ```
