@@ -197,7 +197,7 @@ POST /api/v2/bulk
 ]
 ```
 
-## B. custom Batch Endpoints
+## B. Custom Batch Endpoints
 
 ```bash
 # Look for /batch, /bulk, /multi
