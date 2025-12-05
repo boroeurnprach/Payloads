@@ -62,7 +62,7 @@ Click: https://target.com/verify?token=xyz
 → Often bypasses native 2FA
 ```
 
-# B. Different Auth Paths
+## B. Different Auth Paths
 
 ```yaml
 Login via:
@@ -127,7 +127,7 @@ OTP = md5(timestamp % 1000000)
 - Hash of email + date
 ```
 
-# C. OTP Send in Response
+## C. OTP Send in Response
 
 ```yaml
 POST /send-2fa → Response: {"otp": "123456"}
@@ -232,7 +232,7 @@ POST /2fa/generate-backup-codes
 
 # 11. Information Disclosure
 
-# A. 2FA Page Leaks
+## A. 2FA Page Leaks
 
 ```yaml
 GET /2fa-verify → Response includes:
