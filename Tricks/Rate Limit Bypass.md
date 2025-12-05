@@ -116,7 +116,7 @@ mutation bruteForce {
 
 ## B. Batch Endpoint
 
-```json
+```yaml
 POST /graphql/batch
 [
   {"query": "mutation {verify(code: \"111111\") {token}}"},
