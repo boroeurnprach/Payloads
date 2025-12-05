@@ -188,7 +188,7 @@ curl -b cookies.txt https://target.com/protected
 
 ## A. Array Payloads
 
-```bash
+```yaml
 POST /api/v2/bulk
 [
   {"action": "verify", "code": "111111"},
