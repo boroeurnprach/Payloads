@@ -55,12 +55,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Captcha Bypass.md",
+                "file": "2FA Bypass.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2FA Bypass"
+            }
+          },
+          {
+            "id": "9b970926ae9b414c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JWT Vulnerabilities/JWT Attack Testing Tricks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JWT Attack Testing Tricks"
+            }
+          },
+          {
+            "id": "89a26ca82d3bc6d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WAF-Proxy Bypass.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Captcha Bypass"
+              "title": "WAF-Proxy Bypass"
             }
           },
           {
@@ -78,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -231,6 +259,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -239,21 +268,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0d8d23029e481cb",
+  "active": "89a26ca82d3bc6d4",
   "lastOpenFiles": [
+    "Rate Limit Bypass.md",
+    "WAF-Proxy Bypass.md",
     "JWT Vulnerabilities/JWT Attack Testing Tricks.md",
-    "Captcha Bypass.md",
     "2FA Bypass.md",
-    "CORS/CORS - Misconfigurations & Bypass.md",
+    "NOSQLi/MongoDB Testing.md",
+    "NOSQLi/NoSQLi - Timing based injection.md",
     "CSP (Content Security Policy)/Content Security Policy (CSP) Bypass.md",
+    "Captcha Bypass.md",
+    "CORS/CORS - Misconfigurations & Bypass.md",
     "CSP (Content Security Policy)/What is CSP?.md",
     "SQLi/Blind-SQLi/Exploiting blind SQL injection by triggering conditional responses.md",
     "SQLi/Listing the contents of the database.md",
     "SQLi/How to detect SQL injection vulnerabilities.md",
     "SQLi/Blind-SQLi/Exploiting blind SQL injection by triggering time delays.md",
     "SQLi/Blind-SQLi/Examining the database in SQL injection attacks.md",
-    "NOSQLi/MongoDB Testing.md",
-    "NOSQLi/NoSQLi - Timing based injection.md",
     "Pasted image 20251203144312.png",
     "NOSQLi",
     "JWT Vulnerabilities",
@@ -275,8 +306,6 @@
     "SQLi/Out-of-Band/Exploiting blind SQL injection using out-of-band (OAST) techniques.md",
     "SQLi/Querying the database type and version.md",
     "SQLi/Retrieving hidden data.md",
-    "SQLi/Error-based/Extracting sensitive data via verbose SQL error messages.md",
-    "SQLi/Finding columns with a useful data type.md",
-    "SQLi/Using a SQL injection UNION attack to retrieve interesting data.md"
+    "SQLi/Error-based/Extracting sensitive data via verbose SQL error messages.md"
   ]
 }
